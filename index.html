@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ITMD 541 <br>Lab-3 <br>Rohit Annam sriram</h2><br> 
+        <h3>Tip Calculator will use french language.</h3>
+        <h1>Calculateur de pourboire</h1>
+        <form id="tipform">
+            <div class="form-group">
+                <label for="billTotal">Montant total:</label>
+                <input type="text" id="billTotal" name="billTotal" placeholder="Entrez le montant total" required>
+            </div><br>
+            <div class="form-group">
+                <label for="tip">Conseil:</label>
+                <input type="range" id="tip" min="0" max="100">
+            </div><br>
+            <div class="form-group">
+                <label for="tipPercentage">Pourcentage de pourboire:</label>
+                <input type="text" id="tipPercentage" disabled>
+            </div><br>
+            <div class="form-group">
+                <label for="tipAmount">Montant du pourboire:</label>
+                <input type="text" id="tipAmount" name="tipAmount" disabled>
+            </div><br>
+            <div class="form-group">
+                <label for="totalBillwithtip">Montant total, pourboire compris:</label>
+                <input type="text" id="totalBillwithtip" disabled>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

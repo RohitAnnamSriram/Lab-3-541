@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(136, 67, 233);
+}
+.container {
+    display: inline-block;
+    color: rgb(159, 34, 100);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2785d3;
+    border-radius: 20px;
+    background-color: rgb(158, 227, 121);
+}
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+}
+input[type="text"][disabled] {
+    background-color:rgb(152, 236, 206);
+    color: rgba(65, 24, 123, 0.729);
+}
+input[type="text"], input[type="range"] {
+    margin: 10px auto;
+    width: 150px;
+    text-align: center;
+}
